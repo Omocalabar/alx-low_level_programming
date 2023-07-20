@@ -9,8 +9,8 @@
 
 int _isupper(int c)
 {
-	if (c >= 'A' && c <= 'Z')  // Check if the character is in the range of uppercase letters
-		return (1);            // Return 1 if it is an uppercase letter
+	if (c >= 'A' && c <= 'Z')
+		return (1);
 	else
-		return (0);            // Return 0 if it is not an uppercase letter
+		return (0);
 }
